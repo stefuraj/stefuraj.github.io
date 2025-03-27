@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephen Raj | MGCo AI Marketing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <span class="mgco">MGCo</span>
+            <span class="ai-tag">AI Marketing</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#services"><i class="fas fa-robot"></i> Services</a></li>
+            <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+            <li><a href="#about"><i class="fas fa-user-tie"></i> About</a></li>
+            <li><a href="#contact" class="cta-button"><i class="fas fa-paper-plane"></i> Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1><span class="typewrite" data-period="2000" data-words='["AI-Powered Marketing", "60% Engagement Growth", "Data-Driven Results"]'></span></h1>
+            <p>Founder of MGCo | MBA Marketing Candidate | AI Strategy Specialist</p>
+            <a href="#contact" class="cta-button pulse">Get Free Audit</a>
+        </div>
+        <div class="hero-image">
+            <img src="images/headshot.jpg" alt="Stephen Raj" id="profile-img">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-dark">
+        <h2><i class="fas fa-cogs"></i> MGCo AI Solutions</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="icon"><i class="fas fa-chart-line"></i></div>
+                <h3>Predictive Analytics</h3>
+                <p>Machine learning models that forecast campaign performance before launch</p>
+            </div>
+            <!-- Additional service cards -->
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2><i class="fas fa-trophy"></i> Case Studies</h2>
+        <div class="project-gallery">
+            <div class="project-card" onclick="location.href='projects/aatc.html'">
+                <img src="images/aatc-project.png" alt="AATC Website">
+                <div class="project-overlay">
+                    <h3>AATC NDIS Provider</h3>
+                    <p>28% conversion increase</p>
+                </div>
+            </div>
+            <!-- Additional project cards -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-dark">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="images/headshot.jpg" alt="Stephen Raj">
+            </div>
+            <div class="about-text">
+                <h2>About Stephen</h2>
+                <p>MBA candidate at Western Sydney University with proven expertise in AI-driven marketing solutions. Founder of MGCo specializing in...</p>
+                <div class="skills-chart">
+                    <!-- Skills visualization -->
+                </div>
+                <a href="#" class="cta-button"><i class="fas fa-download"></i> Download Full CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2><i class="fas fa-envelope"></i> Ready to Transform Your Marketing?</h2>
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <select name="service">
+                <option value="">Select Service</option>
+                <option value="ai-audit">Free AI Marketing Audit</option>
+                <option value="consultation">1:1 Strategy Session</option>
+            </select>
+            <textarea name="message" placeholder="Tell us about your project"></textarea>
+            <button type="submit" class="cta-button">Send Message <i class="fas fa-arrow-right"></i></button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/astephenarnold"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:anthonyraj.stephenarnold@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p>© 2024 MGCo AI Marketing Solutions. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
