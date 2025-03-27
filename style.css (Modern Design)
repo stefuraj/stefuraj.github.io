@@ -1,0 +1,74 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Orbitron:wght@500&display=swap');
+
+:root {
+    --primary: #2A5CAA;
+    --secondary: #00C4CC;
+    --dark: #1A1A2E;
+    --light: #F1F6F9;
+    --accent: #FF6B6B;
+}
+
+/* Base Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--dark);
+    line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 5%;
+    background: rgba(26, 26, 46, 0.9);
+    position: fixed;
+    width: 90%;
+    z-index: 1000;
+}
+
+.logo {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.8rem;
+    color: var(--secondary);
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    min-height: 100vh;
+    padding: 8% 5%;
+    background: linear-gradient(135deg, var(--dark) 0%, var(--primary) 100%);
+    color: white;
+    align-items: center;
+}
+
+/* Service Cards */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.service-card {
+    background: white;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+    
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}
