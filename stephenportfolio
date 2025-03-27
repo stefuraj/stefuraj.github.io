@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephen Raj | MGCo AI Marketing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2A5CAA;
+            --secondary: #00C4CC;
+            --dark: #1A1A2E;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .hero {
+            background: linear-gradient(135deg, var(--dark) 0%, var(--primary) 100%);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">MGCo</div>
+        <ul>
+            <li><a href="#services">AI Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact" class="cta-button">Get Audit</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>AI-Powered Marketing That <span class="typewriter">Increases ROAS...</span></h1>
+        <p>60% engagement growth | 25% higher conversion | AI-driven strategies</p>
+        <a href="#contact" class="cta-button">Book Free Consultation</a>
+        <div class="ai-animation"></div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>MGCo AI Solutions</h2>
+        <div class="service-cards">
+            <div class="card">
+                <div class="icon">🤖</div>
+                <h3>Predictive Campaigns</h3>
+                <p>Our algorithms forecast performance before launch</p>
+            </div>
+            <!-- Add 3 more service cards -->
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>AI Marketing Success Stories</h2>
+        <div class="project-showcase">
+            <div class="project">
+                <img src="aatc-website.jpg" alt="AATC Website">
+                <h3>NDIS Provider Website</h3>
+                <p>28% conversion increase</p>
+            </div>
+            <!-- Add 2 more projects -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="bio">
+            <img src="stephen-headshot.jpg" alt="Stephen Raj">
+            <div class="bio-text">
+                <h2>Stephen Arnold Anthony Raj</h2>
+                <p>MBA Marketing candidate with proven track record in AI-driven marketing solutions...</p>
+                <a href="#" class="cta-button">Download Full CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Ready for AI-Powered Growth?</h2>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="How can we help?"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 MGCo AI Marketing</p>
+        <div class="social-links">
+            <a href="linkedin.com/in/astephenarnold">LinkedIn</a>
+            <a href="mailto:anthonyraj.stephenarnold@gmail.com">Email</a>
+        </div>
+    </footer>
+</body>
+</html>
